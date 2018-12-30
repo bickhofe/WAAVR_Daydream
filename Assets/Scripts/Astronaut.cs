@@ -41,7 +41,7 @@ public class Astronaut : MonoBehaviour
             //    transform.position = Vector3.Slerp(transform.position, pos, .5f * Time.deltaTime);
             //}
 
-            Vector3 pos = (MainScript.VRCam.transform.position - Vector3.up * .25f) + MainScript.VRCam.transform.forward * 1;
+            Vector3 pos = (MainScript.VRCam.transform.position - Vector3.up * .25f) + MainScript.VRCam.transform.forward * 1.25f;
             transform.position = Vector3.Slerp(transform.position, pos, .5f * Time.deltaTime);
 
             //astronaut schaut immer in richtung des nächsten asteroids (falls welche da sind)

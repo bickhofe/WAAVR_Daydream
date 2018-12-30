@@ -138,6 +138,12 @@ public class GameManager : MonoBehaviour
             //show Smartbomb info
             if (SmartBomb) if (!SmartBombText.activeSelf) SmartBombText.SetActive(true);
 
+            if (GvrControllerInput.ClickButton)
+            {
+                LoadSmartBomb();
+            }
+
+
             //faster goodies when ammo is low
             if (Ammo < 3) spawnTimeGoodie = 5;
             else spawnTimeGoodie = 10;
@@ -355,7 +361,8 @@ public class GameManager : MonoBehaviour
         lastScoreText.text = "" + Score;
         highscoreText.text = "00000";
 
-        if (!PlayerPrefs.HasKey("Highscore")) return;
+        //if (!PlayerPrefs.HasKey("Highscore")) return;
+
         if (Score > PlayerPrefs.GetInt("Highscore")) PlayerPrefs.SetInt("Highscore", Score);
         highscoreText.text = "" + PlayerPrefs.GetInt("Highscore");
     }
