@@ -42,10 +42,10 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.47794116, g: 0.47794116, b: 0.47794116, a: 1}
+  m_AmbientSkyColor: {r: 0.9191176, g: 0.9191176, b: 0.9191176, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
-  m_AmbientIntensity: 1
+  m_AmbientIntensity: 4
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: 8e85690cf80050f47b91647ab790aa40, type: 2}
@@ -126,7 +126,7 @@ GameObject:
   - component: {fileID: 170338}
   - component: {fileID: 170337}
   - component: {fileID: 170339}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: coin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -268,7 +268,7 @@ GameObject:
   - component: {fileID: 19416677}
   - component: {fileID: 19416679}
   - component: {fileID: 19416678}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: "Deckfl\xE4che_2_5"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -421,7 +421,7 @@ GameObject:
   - component: {fileID: 24733235}
   - component: {fileID: 24733234}
   - component: {fileID: 24733236}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: screw
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -870,7 +870,7 @@ GameObject:
   - component: {fileID: 102390589}
   - component: {fileID: 102390591}
   - component: {fileID: 102390590}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: Kegel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -977,7 +977,7 @@ GameObject:
   - component: {fileID: 123120223}
   - component: {fileID: 123120225}
   - component: {fileID: 123120224}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: "W\xFCrfel_2"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1127,7 +1127,7 @@ GameObject:
   - component: {fileID: 165541811}
   - component: {fileID: 165541813}
   - component: {fileID: 165541812}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: Extrude_NURBS_1_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1460,7 +1460,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 235986353}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: Klon_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2009,7 +2009,7 @@ GameObject:
   - component: {fileID: 343794160}
   - component: {fileID: 343794162}
   - component: {fileID: 343794161}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: Extrude_NURBS_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2278,7 +2278,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: f0d0e9b07b6656040bba3b984e294b81, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: f0d0e9b07b6656040bba3b984e294b81, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -2763,7 +2763,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 465095789}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: Null_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2795,7 +2795,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 491881123}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: "fl\xFCgel_0"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3634,7 +3634,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 603647263}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: Klon_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3668,7 +3668,7 @@ GameObject:
   - component: {fileID: 605334982}
   - component: {fileID: 605334984}
   - component: {fileID: 605334983}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3742,7 +3742,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 613980920}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: Klon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4234,7 +4234,7 @@ GameObject:
   - component: {fileID: 684306630}
   - component: {fileID: 684306632}
   - component: {fileID: 684306631}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: Kapsel_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4309,7 +4309,7 @@ GameObject:
   - component: {fileID: 687747331}
   - component: {fileID: 687747333}
   - component: {fileID: 687747332}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: Extrude_NURBS_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4428,7 +4428,7 @@ GameObject:
   - component: {fileID: 705210469}
   - component: {fileID: 705210471}
   - component: {fileID: 705210470}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: "Deckfl\xE4che_2_6"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4813,7 +4813,7 @@ Light:
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1
-  m_Range: 3
+  m_Range: 1.5
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
@@ -4830,7 +4830,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 768
   m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -5305,7 +5305,7 @@ GameObject:
   - component: {fileID: 770666388}
   - component: {fileID: 770666390}
   - component: {fileID: 770666389}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: "Deckfl\xE4che_2_3"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9481,7 +9481,7 @@ GameObject:
   m_Component:
   - component: {fileID: 893480824}
   - component: {fileID: 893480825}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: ship
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9532,7 +9532,7 @@ GameObject:
   - component: {fileID: 898733893}
   - component: {fileID: 898733895}
   - component: {fileID: 898733894}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: Kugel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9840,7 +9840,7 @@ GameObject:
   - component: {fileID: 940730666}
   - component: {fileID: 940730668}
   - component: {fileID: 940730667}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: "Deckfl\xE4che_1_6"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10020,7 +10020,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 968951791}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: Null_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10205,7 +10205,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967039
+    m_Bits: 4294967295
   m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -10381,7 +10381,7 @@ GameObject:
   - component: {fileID: 1008886348}
   - component: {fileID: 1008886350}
   - component: {fileID: 1008886349}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: "W\xFCrfel_3"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10693,7 +10693,7 @@ GameObject:
   - component: {fileID: 1053105069}
   - component: {fileID: 1053105071}
   - component: {fileID: 1053105070}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: "Deckfl\xE4che_1_4"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11179,7 +11179,7 @@ GameObject:
   - component: {fileID: 1107204987}
   - component: {fileID: 1107204989}
   - component: {fileID: 1107204988}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: "Deckfl\xE4che_1"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11581,7 +11581,7 @@ GameObject:
   - component: {fileID: 1140006662}
   - component: {fileID: 1140006664}
   - component: {fileID: 1140006663}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: "Deckfl\xE4che_2_4"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11690,7 +11690,7 @@ GameObject:
   - component: {fileID: 1174200949}
   - component: {fileID: 1174200951}
   - component: {fileID: 1174200950}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: Extrude_NURBS_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11874,7 +11874,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1212474433}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: "fl\xFCgel_3"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11908,7 +11908,7 @@ GameObject:
   - component: {fileID: 1213691937}
   - component: {fileID: 1213691939}
   - component: {fileID: 1213691938}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: Kapsel_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15853,7 +15853,7 @@ GameObject:
   - component: {fileID: 1246563774}
   - component: {fileID: 1246563776}
   - component: {fileID: 1246563775}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: "W\xFCrfel"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16064,7 +16064,7 @@ GameObject:
   - component: {fileID: 1300081536}
   - component: {fileID: 1300081538}
   - component: {fileID: 1300081537}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: "Deckfl\xE4che_2"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16880,7 +16880,7 @@ GameObject:
   - component: {fileID: 1434331215}
   - component: {fileID: 1434331217}
   - component: {fileID: 1434331216}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: "Deckfl\xE4che_1_2"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16956,7 +16956,7 @@ GameObject:
   - component: {fileID: 1441666062}
   - component: {fileID: 1441666061}
   - component: {fileID: 1441666060}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: battery
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17408,7 +17408,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1538022277}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: "fl\xFCgel_1"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17847,7 +17847,7 @@ GameObject:
   - component: {fileID: 1612878948}
   - component: {fileID: 1612878950}
   - component: {fileID: 1612878949}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: "W\xFCrfel_4"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18941,7 +18941,7 @@ GameObject:
   - component: {fileID: 1622223629}
   - component: {fileID: 1622223631}
   - component: {fileID: 1622223630}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: Extrude_NURBS_1_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19018,7 +19018,7 @@ GameObject:
   - component: {fileID: 1626234065}
   - component: {fileID: 1626234067}
   - component: {fileID: 1626234066}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: Extrude_NURBS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19503,7 +19503,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1751070194}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: "fl\xFCgel_2"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20140,7 +20140,7 @@ GameObject:
   - component: {fileID: 1778996280}
   - component: {fileID: 1778996282}
   - component: {fileID: 1778996281}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: Kapsel_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20934,7 +20934,7 @@ GameObject:
   - component: {fileID: 1854707118}
   - component: {fileID: 1854707120}
   - component: {fileID: 1854707119}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: "Deckfl\xE4che_1_5"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21973,7 +21973,7 @@ GameObject:
   - component: {fileID: 1979208670}
   - component: {fileID: 1979208672}
   - component: {fileID: 1979208671}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: "Deckfl\xE4che_2_2"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22048,7 +22048,7 @@ GameObject:
   - component: {fileID: 1983862301}
   - component: {fileID: 1983862303}
   - component: {fileID: 1983862302}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: "Deckfl\xE4che_1_3"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22425,7 +22425,7 @@ GameObject:
   - component: {fileID: 2021346033}
   - component: {fileID: 2021346035}
   - component: {fileID: 2021346034}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: Kapsel
   m_TagString: Untagged
   m_Icon: {fileID: 0}

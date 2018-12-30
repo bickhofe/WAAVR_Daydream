@@ -614,7 +614,7 @@ MonoBehaviour:
   RocketExplosionBig: {fileID: 100000, guid: 1486c70669853174992345a75241e8c1, type: 2}
   ImpactExplosion: {fileID: 100000, guid: c8e66f955cba714478daa3ae45958462, type: 2}
   newBigRoid: {fileID: 8300000, guid: f88eacd124725124bb66b401bfd5b933, type: 3}
-  newSpecial: {fileID: 8300000, guid: fcf8dcb29b6a30c41842a88e4aec5bd1, type: 3}
+  newSpecial: {fileID: 8300000, guid: 6eb17d229a44e3941be9d76bf05d1cd5, type: 3}
 --- !u!114 &114325702657612102
 MonoBehaviour:
   m_ObjectHideFlags: 1
