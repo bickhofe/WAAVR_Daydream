@@ -98,8 +98,7 @@ public class Goodie : MonoBehaviour
         goodies[goodieType].SetActive(true);
 
         // Teleport randomly.
-        Vector3 rndDir = Random.onUnitSphere * 1.5f;
-        if (!MainScript.dof6) rndDir = Random.onUnitSphere;
+        Vector3 rndDir = Random.onUnitSphere;
 
         transform.localPosition = rndDir;
         Invoke("HideGoodie", 15);

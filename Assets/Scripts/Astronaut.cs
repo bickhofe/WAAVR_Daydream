@@ -30,17 +30,19 @@ public class Astronaut : MonoBehaviour
         }
         else
         {
-            if (MainScript.dof6)
-            {
-                Vector3 pos = new Vector3(-MainScript.VRCam.transform.position.x, MainScript.VRCam.transform.position.y-.5f, -MainScript.VRCam.transform.position.z);
-                transform.position = Vector3.Slerp(transform.position, pos, .5f * Time.deltaTime);
-            } else
-            {
+            //if (MainScript.dof6)
+            //{
+            //    Vector3 pos = new Vector3(-MainScript.VRCam.transform.position.x, MainScript.VRCam.transform.position.y-.5f, -MainScript.VRCam.transform.position.z);
+            //    transform.position = Vector3.Slerp(transform.position, pos, .5f * Time.deltaTime);
+            //} else
+            //{
                 
-                Vector3 pos = (MainScript.VRCam.transform.position -Vector3.up*.25f) + MainScript.VRCam.transform.forward * 1;
-                print("pos"+pos);
-                transform.position = Vector3.Slerp(transform.position, pos, .5f * Time.deltaTime);
-            }
+            //    Vector3 pos = (MainScript.VRCam.transform.position -Vector3.up*.25f) + MainScript.VRCam.transform.forward * 1;
+            //    transform.position = Vector3.Slerp(transform.position, pos, .5f * Time.deltaTime);
+            //}
+
+            Vector3 pos = (MainScript.VRCam.transform.position - Vector3.up * .25f) + MainScript.VRCam.transform.forward * 1;
+            transform.position = Vector3.Slerp(transform.position, pos, .5f * Time.deltaTime);
 
             //astronaut schaut immer in richtung des nächsten asteroids (falls welche da sind)
             if (MainScript.NearestAsteroid != null && MainScript.Ammo > 0)  targetRotation = Quaternion.LookRotation(MainScript.NearestAsteroid.transform.position - transform.position);
