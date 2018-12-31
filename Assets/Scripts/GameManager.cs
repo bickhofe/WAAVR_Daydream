@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
 {
 
     public Transform VRCam;
-    public bool dof6 = true;  
+    //public bool dof6 = true;  
     public GameObject Player;
     public GameObject Title;
     public GameObject Status;

@@ -20041,7 +20041,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   VRCam: {fileID: 1127112948}
-  dof6: 1
   Player: {fileID: 65678176}
   Title: {fileID: 1075034444}
   Status: {fileID: 195783742}
