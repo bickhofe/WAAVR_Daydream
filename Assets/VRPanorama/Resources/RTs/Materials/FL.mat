@@ -80,9 +80,9 @@ Material:
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _SrcBlend: 1
-    - _U: 8192
+    - _U: 3000
     - _UVSec: 0
-    - _V: 8192
+    - _V: 6000
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
