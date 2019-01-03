@@ -163,7 +163,7 @@ PlayerSettings:
   applicationIdentifier:
     Android: com.bickhofe.waavrdaydream
   buildNumber: {}
-  AndroidBundleVersionCode: 1
+  AndroidBundleVersionCode: 3
   AndroidMinSdkVersion: 26
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 1
@@ -246,7 +246,7 @@ PlayerSettings:
   AndroidTargetDevice: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: D:/GDrive/_cert/Universal_keystore/bickhofe.keystore
+  AndroidKeystoreName: L:/GoogleDrive/_cert/Universal_keystore/bickhofe.keystore
   AndroidKeyaliasName: bickhofe
   AndroidTVCompatibility: 1
   AndroidIsGame: 1
