@@ -450,18 +450,8 @@ public class GameManager : MonoBehaviour
         NewItemInfo.SetActive(false);
     }
 
-    public void QuitGame(){
+    public void QuitGame()
+    {
         Application.Quit();
-    }
-
-    public void LaunchVrHome() {
-    #if UNITY_ANDROID && !UNITY_EDITOR
-        GvrDaydreamApi.LaunchVrHomeAsync((success) => {
-            if (!success) {
-            // Unexpected. See GvrDaydreamApi log messages for details.
-            Debug.LogError("GvrDaydreamApi.LaunchVrHomeAsync() failed");
-            }
-        });
-    #endif  // UNITY_ANDROID && !UNITY_EDITOR
     }
 }

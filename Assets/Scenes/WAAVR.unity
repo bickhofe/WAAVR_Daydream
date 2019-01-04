@@ -12920,7 +12920,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 1981958755
+  randomSeed: -565656829
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -19804,7 +19804,6 @@ GameObject:
   - component: {fileID: 1692035682}
   - component: {fileID: 1692035681}
   - component: {fileID: 1692035680}
-  - component: {fileID: 1692035677}
   m_Layer: 5
   m_Name: CanvasTitle
   m_TagString: Untagged
@@ -19812,17 +19811,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1692035677
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1692035676}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d518a00ceacb57f4d94b3cc806d60f40, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1692035680
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20177,8 +20165,6 @@ GameObject:
   - component: {fileID: 1774323181}
   - component: {fileID: 1774323180}
   - component: {fileID: 1774323183}
-  - component: {fileID: 1774323184}
-  - component: {fileID: 1774323185}
   m_Layer: 0
   m_Name: Main
   m_TagString: Untagged
@@ -20563,28 +20549,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!114 &1774323184
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1774323177}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93ab9066e8186884da64ee239717c741, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1774323185
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1774323177}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93ab9066e8186884da64ee239717c741, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1776112232
 GameObject:
   m_ObjectHideFlags: 0
@@ -22536,7 +22500,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: -1120564145
+  randomSeed: 208817034
   InitialModule:
     serializedVersion: 3
     enabled: 1
